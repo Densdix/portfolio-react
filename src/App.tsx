@@ -15,7 +15,7 @@ function App() {
   }, [])
 
   return (
-    <div className="text-center">
+    <div className="text-center min-h-[100vh] flex flex-col">
       <Navbar />
       <Outlet />
       <Footer />
