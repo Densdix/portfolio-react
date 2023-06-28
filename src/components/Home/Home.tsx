@@ -16,7 +16,7 @@ const Home = () => {
                     <div className="mb-[40px] text-[18px] leading-[1.333]">
                         <p className='mt-[0.5em]'>with passion for learning and creating.</p>
                     </div>
-                    <a href="#!" className="inline-block mx-auto font-medium shadow bg-[var(--accent)] hover:opacity-80 focus:shadow-outline focus:outline-none active:top-[1px] active:relative text-[var(--white)] text-[16px] py-3 px-7 rounded-[5px]">Download CV</a>
+                    <a href="https://t.me/dshustak" target='_blank' className="inline-block mx-auto font-medium shadow bg-[var(--accent)] hover:opacity-80 focus:shadow-outline focus:outline-none active:top-[1px] active:relative text-[var(--white)] text-[16px] py-3 px-7 rounded-[5px]">Contact me</a>
                 </div>
             </header>
 
