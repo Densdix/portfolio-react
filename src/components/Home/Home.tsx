@@ -26,11 +26,11 @@ const Home = () => {
                     <ul className="my-0 mx-auto max-w-[570px] flex flex-col items-center gap-y-[40px] max-sm:gap-y-[20px] text-center">
                         <li className="text-[18px] max-sm:text-[16px] leading-[1.5]">
                             <h2 className="mb-[20px] text-[40px] font-bold leading-[1.3] max-sm:mb-[10px] max-sm:text-[30px]">Frontend</h2>
-                            <p className='mt-[0.5em]'>JavaScript, TypeScript, ReactJS, Angular, Redux, HTML, CSS, NPM, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents</p>
+                            <p className='mt-[0.5em]'>JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, NPM, BootStrap, Yarn, TailwindCSS</p>
                         </li>
                         <li className="text-[18px] max-sm:text-[16px] leading-[1.5]">
                             <h2 className="mb-[20px] text-[40px] font-bold leading-[1.3] max-sm:mb-[10px] max-sm:text-[30px]">Backend</h2>
-                            <p className='mt-[0.5em]'>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
+                            <p className='mt-[0.5em]'>NodeJS, ExpressJS, MySQL, PostgreSQL, Sequelize</p>
                         </li>
                     </ul>
 

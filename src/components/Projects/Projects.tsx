@@ -45,7 +45,7 @@ const ProjectsItemCard: React.FC<IProjectsItemCard> = ({ img, title }) => {
 const ProjectsItemCard2: React.FC<IProjectsItemCard> = ({ img, title, tags, demoLink, githubLink }) => {
   return (
     <>
-      <li className="max-w-[370px] bg-[var(--project-card-bg)] shadow-[var(--box-shadow)] rounded-[10px]">
+      <li className="max-w-[370px] shadow-[var(--box-shadow)] rounded-[10px]">
         
           <div className="flex flex-col justify-center items-center">
             <div className="!z-5 relative flex flex-col rounded-[20px] border border-gray-200 bg-white shadow-lg w-full !p-4 3xl:p-![18px] undefined">

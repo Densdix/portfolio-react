@@ -11,8 +11,8 @@ const Footer = () => {
                 <div className="max-w-[1200px] my-0 mx-auto p-0 px-[15px]">
                     <div className="flex flex-col items-center gap-y-[27px] max-sm:gap-y-[20px]">
                         <ul className="flex gap-x-[30px] max-sm:gap-x-[20px] items-center">
-                            <li className="max-sm:w-[28px]"><a href="#"><img src={gitHubImg} alt="Link" /></a></li>
-                            <li className="max-sm:w-[28px]"><a href="#"><img src={telegramImg} alt="Link" /></a></li>
+                            <li className="max-sm:w-[28px]"><a target='_blank' href="https://github.com/Densdix/"><img src={gitHubImg} alt="Link" /></a></li>
+                            {/* <li className="max-sm:w-[28px]"><a href="#"><img src={telegramImg} alt="Link" /></a></li> */}
                         </ul>
                         <div className="text-[16px]">
                             <p className='mt-[0.5em]'>© {currYear}<span className='font-semibold'> shustak.pp.ua</span> </p>
