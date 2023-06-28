@@ -4,88 +4,90 @@ import { Dispatch, PayloadAction, createSlice } from "@reduxjs/toolkit"
 
 export interface IProjectsItem {
     metadata: {
-        tags: Array<any>
+      tags: Array<any>
     }
     sys: {
-        space: {
-            sys: {
-                type: string
-                linkType: string
-                id: string
-            }
+      space: {
+        sys: {
+          type: string
+          linkType: string
+          id: string
         }
-        id: string
-        type: string
-        createdAt: string
-        updatedAt: string
-        environment: {
-            sys: {
-                id: string
-                type: string
-                linkType: string
-            }
+      }
+      id: string
+      type: string
+      createdAt: string
+      updatedAt: string
+      environment: {
+        sys: {
+          id: string
+          type: string
+          linkType: string
         }
-        revision: number
-        contentType: {
-            sys: {
-                type: string
-                linkType: string
-                id: string
-            }
+      }
+      revision: number
+      contentType: {
+        sys: {
+          type: string
+          linkType: string
+          id: string
         }
-        locale: string
+      }
+      locale: string
     }
     fields: {
-        title: string
-        path: string
-        description: string
-        image: {
-            metadata: {
-                tags: Array<any>
-            }
-            sys: {
-                space: {
-                    sys: {
-                        type: string
-                        linkType: string
-                        id: string
-                    }
-                }
-                id: string
-                type: string
-                createdAt: string
-                updatedAt: string
-                environment: {
-                    sys: {
-                        id: string
-                        type: string
-                        linkType: string
-                    }
-                }
-                revision: number
-                locale: string
-            }
-            fields: {
-                title: string
-                description: string
-                file: {
-                    url: string
-                    details: {
-                        size: number
-                        image: {
-                            width: number
-                            height: number
-                        }
-                    }
-                    fileName: string
-                    contentType: string
-                }
-            }
+      title: string
+      path: string
+      description: string
+      image: {
+        metadata: {
+          tags: Array<any>
         }
-        isAvailable: boolean
-        tags: Array<string>
+        sys: {
+          space: {
+            sys: {
+              type: string
+              linkType: string
+              id: string
+            }
+          }
+          id: string
+          type: string
+          createdAt: string
+          updatedAt: string
+          environment: {
+            sys: {
+              id: string
+              type: string
+              linkType: string
+            }
+          }
+          revision: number
+          locale: string
+        }
+        fields: {
+          title: string
+          description: string
+          file: {
+            url: string
+            details: {
+              size: number
+              image: {
+                width: number
+                height: number
+              }
+            }
+            fileName: string
+            contentType: string
+          }
+        }
+      }
+      isAvailable: boolean
+      tags: Array<string>
+      demoUrl: string
+      githubUrl: string
     }
-}
+  }
 
 type initStateType = {
     projectsData: IProjectsItem[]

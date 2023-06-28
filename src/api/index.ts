@@ -10,6 +10,7 @@ const client = contentful.createClient({
 export const contentfulGetData = async () => {
     return client.getEntries()
         .then((response) => {
+            console.log(response.items)
             return response.items as IProjectsItem[]
         })
 }
