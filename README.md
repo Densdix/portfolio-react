@@ -4,9 +4,10 @@
 <h1 align="center"> Portfolio </h1>
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="src/assets/header-bg.png" alt="Logo" width="150" height="150">
+    <img src="src/assets/dev-portfolio.png" alt="Logo" width="200">
   </a>
-
+    <br>
+    <br>
   <p align="center">
     SPA Portfolio project. Built with React.
     <br />
@@ -139,7 +140,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 [Redux.js.org]: https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white
-[Redux-url]: https://jquery.com 
+[Redux-url]: https://redux.js.org
 [Tailwindcss.com]: https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
 [Tailwindcss-url]: https://tailwindcss.com/ 
 [Contentful.com]: https://img.shields.io/badge/Contentful-2478CC?style=for-the-badge&logo=contentful&logoColor=white
